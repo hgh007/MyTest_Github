@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<resources>
+
+<color name="hans_by_color">#009900</color>
+    <style name="Hans_Thema" parent="android:Theme.Light">
+
+        <item name="android:background">@color/hans_by_color</item>
+
+
+
+    </style>
+    <!-- Base application theme. parent="Theme.AppCompat.Light.DarkActionBar">-->
+    <style name="BabyBlue" >
+        <!-- Customize your theme here. -->
+
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+
+        <item name="android:textColor">#0fefef</item>
+        <item name="android:background">#006699</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <style name="BabyBlue.BigBlue" >
+        <!-- Customize your theme here. -->
+
+        <item name="android:textSize">60sp</item>
+
+
+
+    </style>
+
+</resources>

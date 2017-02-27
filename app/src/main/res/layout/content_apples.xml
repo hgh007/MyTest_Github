@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:weightSum="1">
+
+    <View
+        android:id="@+id/part1"
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:layout_weight="0.49">
+    </View>
+
+    <View
+        android:id="@+id/part2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="30dp" >
+    </View>
+
+</LinearLayout>
